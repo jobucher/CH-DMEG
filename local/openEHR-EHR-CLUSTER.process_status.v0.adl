@@ -26,12 +26,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0d22cb505eb38953b1c7c4e8692215bd">
+		["MD5-CAM-1.0.1"] = <"ae85fa390a5ce443c85e580ca8b9b909">
 		["build_uid"] = <"1e143e9a-7cc8-39eb-b33c-49db40fed844">
 	>
 
 definition
-	CLUSTER[at0000] matches {    -- process_status
+	CLUSTER[at0000] matches {    -- Process status
 		items cardinality matches {1..*; unordered} matches {
 			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Admission
 				value matches {
@@ -61,7 +61,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"process_status">
+					text = <"Process status">
 					description = <"Diagnosis timing">
 				>
 				["at0001"] = <
