@@ -1,0 +1,216 @@
+archetype (adl_version=1.4; uid=3173e68a-cbbe-4826-ac0f-2351a7401551)
+	openEHR-EHR-CLUSTER.diagnosis_category.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+			>
+		>
+	>
+
+description
+	original_author = <
+		["date"] = <"2025-08-05">
+		["name"] = <"Jonas Bucher">
+		["organisation"] = <"Cistec AG">
+		["email"] = <"jonas.bucher@cistec.com">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			copyright = <"© openEHR Foundation">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"df82ca8584e1478a106b1f2c3020514c">
+		["build_uid"] = <"0bba4bd4-6eec-3667-8a7f-d2be624ca904">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- Diagnosis category
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Childhood illness
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0002] occurrences matches {0..1} matches {    -- Pregnancy related
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Oncological
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0004] occurrences matches {0..1} matches {    -- Psychiatric
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0005] occurrences matches {0..1} matches {    -- Preoperative
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0006] occurrences matches {0..1} matches {    -- Discharge
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0007] occurrences matches {0..1} matches {    -- Admission
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Postoperative
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0009] occurrences matches {0..1} matches {    -- Psychological
+				value matches {
+					DV_BOOLEAN matches {
+						value matches {true}
+					}
+				}
+			}
+			ELEMENT[at0010] occurrences matches {0..1} matches {    -- Self-reported
+				value matches {
+					DV_BOOLEAN matches {*}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Diagnosis category">
+					description = <"diagnosis_category">
+				>
+				["at0001"] = <
+					text = <"Childhood illness">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Pregnancy related">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Oncological">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Psychiatric">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Preoperative">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Discharge">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Admission">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Postoperative">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Psychological">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Self-reported">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"Diagnose Kategorie">
+					description = <"Diagnose Kategorie">
+				>
+				["at0001"] = <
+					text = <"Kinderkrankheit">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Schwangerschaftsbezogen">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Onkologisch">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Psychiatrisch">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Präoperativ">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Austrittsdiagnose">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Eintrittsdiagnose">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Postoperativ">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Psychisch">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Persönlich">
+					description = <"">
+				>
+			>
+		>
+	>
