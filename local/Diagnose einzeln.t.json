@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "5.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "e7c152b1eaeb4f7813bc84562bf0704e",
+      "MD5-CAM-1.0.1" : "9ef618f0bdf84a11e0d72e4cca26d3bc",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -774,15 +774,6 @@
               "attributeTuples" : [ ],
               "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-problem_qualifier-001.v2",
               "referenceType" : "archetypeOverlay"
-            }, {
-              "@type" : "C_ARCHETYPE_ROOT",
-              "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..0",
-              "nodeId" : "at0043.2",
-              "attributes" : [ ],
-              "attributeTuples" : [ ],
-              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-001.v0",
-              "referenceType" : "archetypeOverlay"
             } ]
           } ],
           "attributeTuples" : [ ]
@@ -801,16 +792,7 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0070.1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "value",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_DATE_TIME",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              } ],
+              "attributes" : [ ],
               "attributeTuples" : [ ]
             } ]
           } ],
@@ -2848,101 +2830,6 @@
           "value" : "ISO_639-1"
         },
         "codeString" : "de"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
-  }, {
-    "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "6792fd98-351a-4a6a-9751-7765c8f25cf8",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "AFDDD37CBFCFA08C0414D77BF4393F50"
-      },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "For å registrere en numerisk graderingsskala for å kvantifisere en subjektiv evaluering av alvorlighetsgraden av et symptom/sykdomstegn/problem.",
-          "keywords" : [ "numerisk graderingsskala, visuell analog skala, gradering, graderingsskala, alvorlighet" ],
-          "use" : "Brukes for å registrere en numerisk graderingsskala for å kvantifisere en subjektiv evaluering av alvorlighetsgraden av et symptom/sykdomstegn/problem.\r\n\r\nDenne arketypen er ment å brukes til å representere en rekke alvorlighetsskalaer, for eksempel visuell analog skala eller numeriske vurderingsskalaer av ulike omfang.\r\n\r\nDette CLUSTERet kan nøstes inn i SLOTet \"Gradering av alvorlighet\" i arketypen CLUSTER.symptom_sign (Symptom/Sykdomstegn), eller andre arketyper der klinisk passende.\r\n\r\nAlvorlighetsgrad kan vurderes av individet ved å registrere en poengsum, for eksempel fra 0 (ikke til stede) til 10,0 (så alvorlig som individet kan forestille seg).\r\n",
-          "misuse" : "Skal ikke brukes i etablerte vurderingsskalaer som Clinical Frailty Scale og Glasgow Coma Scale. Bruk en arketype spesifikt for vurderingsskalaen til dette formålet.\r\n\r\nSkal ikke brukes til verbale vurderingsskalaer og grafiske vurderingsskalaer, fordi de vanligvis er skreddersydd til det spesifikke vurderte konseptet.\r\n\r\nSkal ikke brukes for vurderinger der skalaen er invertert, for eksempel der 10 er det minst alvorlige og 0 er det mest alvorlige.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record a numeric rating scale to quantify a subjective evaluation of the severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record a numeric rating scale to quantify a subjective evaluation of the severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales. \r\n\r\nThis cluster can be nested in the 'Severity rating' slot of the archetype CLUSTER.symptom_sign, or in other archetypes where clinically appropriate.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
-    },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-001.v0"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "CLUSTER",
-      "nodeId" : "at0000.1",
-      "attributes" : [ ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
-      },
-      "termBindings" : { },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "13b85f69-2f1d-4096-82c9-e1ce2476ba0e",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "en"
-    },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
       },
       "author" : { },
       "otherDetails" : { }
