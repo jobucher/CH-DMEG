@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "1eaee0f1abcbf9a9b9162d76d4f1d143",
+      "MD5-CAM-1.0.1" : "0677ab0f54a8b082fa3cd7082de0a831",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -2383,10 +2383,31 @@
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "occurrences" : "1..1",
                   "terminologyId" : {
-                    "value" : "Lateralities"
+                    "value" : "D02m Unilaterale und bilaterale Diagnosen"
                   },
-                  "constraint" : [ "ac0.3" ],
-                  "selectedTerminologies" : [ "Lateralities" ]
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "D02m Unilaterale und bilaterale Diagnosen" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "code" : "0",
+                    "value" : "Beidseitig"
+                  }, {
+                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "code" : "1",
+                    "value" : "Einseitig rechts"
+                  }, {
+                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "code" : "2",
+                    "value" : "Einseitig links"
+                  }, {
+                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "code" : "3",
+                    "value" : "Einseitig unbekannt"
+                  }, {
+                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "code" : "9",
+                    "value" : "Unbekannt"
+                  } ]
                 } ]
               } ],
               "attributeTuples" : [ ]
@@ -2634,9 +2655,6 @@
       "termBindings" : {
         "SNOMED-CT" : {
           "at0002.1" : "term:SNOMED-CT::272741003"
-        },
-        "Lateralities" : {
-          "ac0.3" : "terminology://fhir.hl7.org/ValueSet/$expand?url=http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities"
         }
       },
       "terminologyExtracts" : { },
