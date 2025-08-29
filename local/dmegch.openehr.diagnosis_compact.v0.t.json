@@ -24,7 +24,7 @@
       "custodian_namespace" : "ch.openehr",
       "sem_ver" : "0.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "b92bd8972ed6e5a49385490d41a5f0b8",
+      "MD5-CAM-1.0.1" : "9f991fff99b8443ea042299b2a9c9db4",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -743,13 +743,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0012.2",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
               "nodeId" : "at0077.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -861,141 +854,21 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "es" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Zona corporal (2)",
-            "description" : "Identificación de una zona corporal sencilla para la localización del problema o diagnóstico.",
-            "comment" : "Siempre que sea posible, es preferible codificar el nombre de la ubicación anatómica con una terminología.\r\nUtilice este elemento de datos para registrar ubicaciones anatómicas precoordinadas. Si los requisitos para registrar la ubicación anatómica los determina la aplicación en tiempo de ejecución o requieren un modelado más complejo, como ubicaciones relativas, utilice CLUSTER.anatomical_location o CLUSTER.relative_location, dentro del SLOT 'Structured anatomical location', en este arquetipo. Las ocurrencias de este elemento de datos son ilimitadas para permitir escenarios clínicos, como describir una erupción en múltiples ubicaciones pero donde todos los demás atributos son idénticos. Si la ubicación anatómica se incluye en el nombre del problema/diagnóstico mediante códigos precoordinados, este dato será redundante."
-          }
-        },
-        "es-ar" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Sitio corporal (2)",
-            "description" : "Identificación de un sitio corporal simple para la localización o el problema.",
-            "comment" : "Se prefiere la codificación de la localización anatómica mediante una terminología cuando esto sea posible.\r\nUtilícese este dato para registrar localizaciones anatómicas precoordinadas. Si los requerimientos para el registro de una localización anatómica son determinadas en tiempo de ejecución por parte de la aplicación, o se requiere un modelado más complejo tal como una localización relativa, utilícese CLUSTER.anatomical_location or CLUSTER.relative_location dentro del slot \"localización anatómica estructurada\" en este arquetipo. Las ocurrencias de este dato son ilimitadas para así permitir escenarios clínicos tales como la descripción de un rash en múltiples localizaciones pero donde todos los demás atributos son idénticos. Si la localización anatómica esta incluida en el nombre del problema o diagnóstico mediante códigos precoordinados, este dato se torna redundante."
-          }
-        },
-        "de" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.2",
-            "text" : "Lateralität",
-            "description" : "Identifikation einer einfachen Körperstelle zur Lokalisierung des Problems oder der Diagnose.",
-            "comment" : "Wo dies möglich ist, ist die Kodierung der anatomischen Lokalisation über eine Terminologie zu bevorzugen. Verwenden Sie dieses Datenelement, um vorab präkoordinierte anatomische Lokalisationen zu erfassen. Wenn die Anforderungen an die Erfassung der anatomischen Lokalisation zur Laufzeit durch die Anwendung bestimmt werden oder komplexere Modellierungen, wie z.B. relative Lokalisationen erforderlich sind, dann verwenden Sie in diesem Archetyp den CLUSTER.anatomical_location oder CLUSTER.relative_location innerhalb des SLOT 'Structured anatomical location'. Die Anzahl für dieses Datenelement ist unbegrenzt, um klinische Szenarien wie die Beschreibung eines Hautausschlags an mehreren Stellen zu ermöglichen, wobei jedoch alle anderen Attribute identisch sind. Falls die anatomische Lage über präkoordinierte Codes im Namen des Problems/Diagnose enthalten ist, wird dieses Datenelement überflüssig."
-          }
-        },
-        "en" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.2",
-            "text" : "Laterality",
-            "description" : "Identification of a simple body site for the location of the problem or diagnosis.",
-            "comment" : "Coding of the name of the anatomical location with a terminology is preferred, where possible.\r\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant."
-          }
-        },
-        "ar-sy" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "*Body site(en) (2)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\r\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant.(en)"
-          }
-        },
-        "pt-br" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Local do corpo (2)",
-            "description" : "Simples identificação de um local do corpo para a localização do problema ou diagnóstico.",
-            "comment" : "A codificação do nome da localização anatômica com uma terminologia é preferível, quando possível.\r\nUtilize este elemento de dados para gravar localizações anatômicas precoordenadas. Se os requisitos para gravar a localização anatômica são determinados em tempo real através da aplicação ou requerem uma modelagem mais complexa, como localizações relativas, em seguida, use o CLUSTER.anatomical_location ou CLUSTER.relative_location dentro do SLOT 'localização anatômica estruturada' neste arquétipo. Ocorrências para este elemento de dados são ilimitadas para permitir cenários clínicos tais como a descrição de uma erupção cutânea em vários locais, mas em que todos os outros atributos são idênticos. Se a localização anatômica é incluída ao nome do Problema / diagnóstico, através de códigos pré-coordenados, este elemento de dados torna-se redundante."
-          }
-        },
-        "nb" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Anatomisk lokalisering (2)",
-            "description" : "Registrering av et enkelt og usammensatt anatomisk sted der problemet eller diagnosen er lokalisert.",
-            "comment" : "Koding av navnet på den anatomiske lokaliseringen ved hjelp av en terminologi er foretrukket når dette er mulig. \r\nBruk dette dataelementet for å registrere prekoordinerte anatomiske lokaliseringer. Dersom behovene for å registrere anatomisk sted bestemmes i applikasjonen eller trenger større grad av kompleksitet som f.eks. relativ lokalisering, er det anbefalt å bruke CLUSTER.anatomical_location eller CLUSTER.relative_location innenfor SLOTet \"Strukturert anatomisk lokalisering\" i denne arketypen. Dette dataelementet kan ha ubegrenset antall forekomster, for å gjøre det mulig å registrere kliniske scenarier som f.eks. å beskrive et utslett som opptrer flere steder på kroppen, men der alle andre attributter er identiske. Dersom den anatomiske lokaliseringen inkluderes i feltet \"Problem/diagnosenavn\" via prekoordinerte koder blir dette dataelementet overflødig."
-          }
-        },
-        "sv" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Anatomisk plats (2)",
-            "description" : "Identifiering av problemets eller diagnosens anatomiska plats.",
-            "comment" : "Om möjligt, koda den anatomiska platsens namn med en terminologi. Använd det här fältet för att dokumentera prekoordinerade anatomiska platser. \r\n\r\nOm kraven på dokumentation av den anatomiska platsen bestäms vid körning av applikationen eller kräver mer komplex modellering, till exempel relativa platser (exempelvis 3 cm ovanför vänster knä), använd CLUSTER.anatomical_location eller CLUSTER.relative_location i SLOT \"Strukturerad anatomisk plats\" i denna arketyp. Förekomster av detta dataelement är obegränsat för att möjliggöra kliniska scenarier som att beskriva utslag på flera platser, men där alla andra egenskaper är identiska. Om den anatomiska platsen ingår i \"Benämning på problem/diagnos\" genom prekoordinerade koder blir detta fält överflödigt."
-          }
-        },
-        "ko" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "신체 위치 (2)",
-            "description" : "문제 또는 진단의 위치를 위해 간단한 신체 위치 확인",
-            "comment" : "가능하다면, 용어체계를 통한 해부학적 위치의 명칭을 코딩하는 것이 좋음.\r\n이 데이터 엘리먼트에 선조합된 해부학적 위치를 사용. 해부학적 위치를 기록하기 위한 요구사항이 애플리케이션 실행 때 결정되거나 또는 상대적인 위치와 같은 더 복잡한 모델링을 요구한다면, 이 아키타입의 'Structured anatomical location' SLOT 내의 CLUSTER.anatomical_location 또는 CLUSTER.relative_location를 이용. 이 데이터 엘리먼트을 위한 Occurrences는 여러 위치에 생긴 발진(rash)을 기술하는 것과 같은 임상 시나리오를 허용하는데 제한이 없지만 모든 다른 속성(attributes)은 동일해야 함. 해부학적 위치가 문제/진단명에 선조합코드로 포함된다면 이 데이터 엘리먼트는 중복이 됨."
-          }
-        },
-        "fi" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Kehonosa (2)",
-            "description" : "Yksinkertaisen vartalokohdan tunnistaminen ongelman tai diagnoosin sijaintia varten.",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\r\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant.(en)"
-          }
-        },
-        "it" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Sito corporeo (2)",
-            "description" : "Identificativo di un semplice sito corporeo per per la localizzazione del problema o della diagnosi.",
-            "comment" : "Si preferisce, ove possibile, la codifica del sito anatomico con una terminologia.  Utilizzare questo campo per memorizzare posizioni anatomiche precoordinate. Se i requisiti per la registrazione della localizzazione sono determinati in fase di esecuzione dell'applicazione  (run-time) o se richiedono una modellazione più complessa, come ad esempio le posizioni relative, allora utilizzare gli archetipi CLUSTER.anatomical_location o CLUSTER.relative_location all'interno dello SLOT di questo archetipo 'Dettagli strutturati del sito corporeo'.  Questo campo non ha limite sulle occorrenze per essere adattabile a scenari clinici come la descrizione di un'eruzione cutanea che coinvolge più siti corporei, ma dove tutti gli altri attributi sono identici. Se la posizione anatomica è inclusa nel campo 'Nome del problema/diagnosi attraverso una codifica prestabilita, questo elemento risulta ridondante."
-          }
-        },
-        "nl" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Lichaamsdeel (2)",
-            "description" : "Identificatie van een eenvoudig lichaamsdeel voor de lokatie van het probleem of de diagnose.",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\r\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant.(en)"
-          }
-        },
-        "zh" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "身体位置 (2)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\r\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant.(en)"
-          }
-        },
-        "ca" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "Zona del cos (2)",
-            "description" : "Identificació de la zona del cos per a la localització del problema o diagnòstic.",
-            "comment" : "Es recomana programar la zona anatòmica amb una terminologia sempre que sigui possible. \r\nUtilitzar aquest element de dades per registrar zones preordinades anatòmiques. Si els requisits per registrar la localització anatòmica es determinen en temps d’execució per l’aplicació o requereixen un modelatge més complex, com les localitzacions relatives, utilitzar CLUSTER.anatomical_location o CLUSTER.relative_location en el SLOT «Structured anatomical location» d’aquest arquetip. Les ocurrències d’aquest element de dades són il·limitades per a permetre escenaris clínics com la descripció d’una erupció en llocs múltiples, però on tots els altres atributs són idèntics. Si la localització anatòmica s’inclou en el nom de problema/diagnòstic mitjançant codis preordinats aquesta dada serà innecessària."
-          }
-        },
-        "zh-cn" : {
-          "at0012.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012.1",
-            "text" : "身体部位 (2)",
-            "description" : "明确的是代表当前问题或诊断所处解剖位置的简单的身体部位。",
-            "comment" : "尽可能首选采用术语标准对解剖位置的名称进行编码。\r\n\r\n请利用本数据元记录先组[配]式（ precoordinated）的解剖位置。如果是由应用程序在运行时来确定关于记录解剖位置的要求，或者是需要更为复杂的建模（如相对位置），则请在本原始型的结构化解剖位置槽位 \"Structured anatomical location\" 采用群簇型解剖位置原始型 CLUSTER.anatomical_location 或群簇型相对位置原始型 CLUSTER.relative_location。本数据元的基数/出现次数并不受限制，以便能够适应不同的临床场景，如描述同时拥有多个解剖位置的皮疹但所有其他的特征属性全都相同。如果问题/诊断名称之中是利用先组[配]式代码（ precoordinated code）来记录相应的解剖位置，则本数据元就会变得多余。"
-          }
-        }
+        "es" : { },
+        "es-ar" : { },
+        "de" : { },
+        "en" : { },
+        "ar-sy" : { },
+        "pt-br" : { },
+        "nb" : { },
+        "sv" : { },
+        "ko" : { },
+        "fi" : { },
+        "it" : { },
+        "nl" : { },
+        "zh" : { },
+        "ca" : { },
+        "zh-cn" : { }
       },
       "termBindings" : {
         "ICD_10_GM" : {
