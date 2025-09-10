@@ -22,9 +22,9 @@
       "original_namespace" : "ch.openehr",
       "original_publisher" : "openehr.ch",
       "custodian_namespace" : "ch.openehr",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "de3ff033dddd569c0099b09f69a8f86b",
+      "MD5-CAM-1.0.1" : "f29ea859ab56f078ac986245922450b2",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -767,19 +767,15 @@
                     "rmAttributeName" : "defining_code",
                     "children" : [ {
                       "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "CODE_PHRASE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
                       "occurrences" : "1..1",
                       "terminologyId" : {
                         "value" : "local"
                       },
-                      "constraint" : [ "at0047", "at0048", "at0049" ]
+                      "constraint" : [ "ac0.2" ],
+                      "selectedTerminologies" : [ ]
                     } ]
                   } ],
-                  "attributeTuples" : [ ]
-                }, {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_TEXT",
-                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -854,21 +850,126 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "es" : { },
-        "es-ar" : { },
-        "de" : { },
-        "en" : { },
-        "ar-sy" : { },
-        "pt-br" : { },
-        "nb" : { },
-        "sv" : { },
-        "ko" : { },
-        "fi" : { },
-        "it" : { },
-        "nl" : { },
-        "zh" : { },
-        "ca" : { },
-        "zh-cn" : { }
+        "es" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "es-ar" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "de" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "en" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "ar-sy" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "pt-br" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "nb" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "sv" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "ko" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "fi" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "it" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "nl" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "zh" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "ca" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
+        "zh-cn" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : {
         "ICD_10_GM" : {
@@ -876,7 +977,13 @@
         }
       },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.2" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.2",
+          "members" : [ "at0047", "at0048", "at0049" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "5084c995-e34b-4832-aa41-b43ca3fe7fdf",
@@ -3413,7 +3520,8 @@
                     "value" : "body-site"
                   },
                   "constraint" : [ "ac0.6" ],
-                  "selectedTerminologies" : [ "body-site" ]
+                  "selectedTerminologies" : [ "body-site" ],
+                  "limitToList" : false
                 } ]
               } ],
               "attributeTuples" : [ ]
