@@ -22,9 +22,9 @@
       "original_namespace" : "ch.openehr",
       "original_publisher" : "openehr.ch",
       "custodian_namespace" : "ch.openehr",
-      "sem_ver" : "0.3.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "9144905a3ba2477abc9b43b103b2a45c",
+      "MD5-CAM-1.0.1" : "f18b5443267abca81b76412c89818876",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -1802,20 +1802,7 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_CODED_TEXT",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "defining_code",
-                "children" : [ {
-                  "@type" : "C_TERMINOLOGY_CODE",
-                  "rmTypeName" : "TERMINOLOGY_CODE",
-                  "occurrences" : "1..1",
-                  "terminologyId" : {
-                    "value" : "condition-clinical"
-                  },
-                  "constraint" : [ "ac0.8" ],
-                  "selectedTerminologies" : [ "condition-clinical" ]
-                } ]
-              } ],
+              "attributes" : [ ],
               "attributeTuples" : [ ]
             } ]
           } ],
@@ -2895,9 +2882,6 @@
           "at0077.1" : "term:SNOMED-CT::288524001",
           "at0060.1" : "term:SNOMED-CT::410511007",
           "at0001.1" : "term:SNOMED-CT::288526004"
-        },
-        "condition-clinical" : {
-          "ac0.8" : "terminology://fhir.hl7.org/ValueSet/$expand?url=http://hl7.org/fhir/ValueSet/condition-clinical"
         }
       },
       "terminologyExtracts" : { },
@@ -3001,6 +2985,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.21",
           "members" : [ "at0084", "at0097" ]
+        },
+        "ac0.22" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.22",
+          "members" : [ ]
         }
       }
     },
