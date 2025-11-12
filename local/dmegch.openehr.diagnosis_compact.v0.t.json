@@ -22,9 +22,9 @@
       "original_namespace" : "ch.openehr",
       "original_publisher" : "openehr.ch",
       "custodian_namespace" : "ch.openehr",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.3.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "03da12492a8087d4ecf10c3cbf9a4cd9",
+      "MD5-CAM-1.0.1" : "9aa0157e3cf6c9eee39189c3c9d2ceab",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -3583,28 +3583,28 @@
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "occurrences" : "1..1",
                   "terminologyId" : {
-                    "value" : "D02m Unilaterale und bilaterale Diagnosen"
+                    "value" : "D02m"
                   },
                   "constraint" : [ ],
-                  "selectedTerminologies" : [ "D02m Unilaterale und bilaterale Diagnosen" ],
+                  "selectedTerminologies" : [ "D02m" ],
                   "includedExternalTerminologyCodes" : [ {
-                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "terminologyId" : "D02m",
                     "code" : "0",
                     "value" : "Beidseitig"
                   }, {
-                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "terminologyId" : "D02m",
                     "code" : "1",
                     "value" : "Einseitig rechts"
                   }, {
-                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "terminologyId" : "D02m",
                     "code" : "2",
                     "value" : "Einseitig links"
                   }, {
-                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "terminologyId" : "D02m",
                     "code" : "3",
                     "value" : "Einseitig unbekannt"
                   }, {
-                    "terminologyId" : "D02m Unilaterale und bilaterale Diagnosen",
+                    "terminologyId" : "D02m",
                     "code" : "9",
                     "value" : "Unbekannt"
                   } ]
