@@ -37,7 +37,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8830efb91fae5f2c1babb8014a2e0eec">
+		["MD5-CAM-1.0.1"] = <"90c35cc6dab8128780a6f37ae86dbad4">
 		["build_uid"] = <"9ce6fd3f-047d-3849-82cf-60ca68a7cab4">
 	>
 
@@ -107,7 +107,7 @@ ontology
 					description = <"Diagnoseprozess Kontext">
 				>
 				["at0013"] = <
-					text = <"*Diagnostic event (en)">
+					text = <"Diagnoseprozess Ereignis">
 					description = <"">
 				>
 				["at0014"] = <
