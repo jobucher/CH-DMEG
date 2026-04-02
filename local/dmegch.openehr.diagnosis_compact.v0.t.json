@@ -22,9 +22,9 @@
       "original_namespace" : "ch.openehr",
       "original_publisher" : "openehr.ch",
       "custodian_namespace" : "ch.openehr",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "15ddcb1b999d1ac50cca4caadf3c374c",
+      "MD5-CAM-1.0.1" : "ce9afa3faf0e36457ff507da6f6c30c5",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -758,6 +758,14 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0079.3",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0079.2",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -940,6 +948,13 @@
             "text" : "Variante (2)",
             "description" : "Variante o subtipo específico del Diagnóstico, si procede.",
             "comment" : "Por ejemplo: \"neuropatía axonal motora aguda\" como variante del síndrome de Guillain-Barré. Siempre que sea posible, es preferible codificar el nombre de la variante con una terminología."
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "Variante (3)",
+            "description" : "Variante o subtipo específico del Diagnóstico, si procede.",
+            "comment" : "Por ejemplo: \"neuropatía axonal motora aguda\" como variante del síndrome de Guillain-Barré. Siempre que sea posible, es preferible codificar el nombre de la variante con una terminología."
           }
         },
         "es-ar" : {
@@ -959,6 +974,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "*Variant (en) (2)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
@@ -982,6 +1004,13 @@
             "text" : "Variante (2)",
             "description" : "Spezifische Variante oder Subtyp der Diagnose, falls relevant.",
             "comment" : "Zum Beispiel: „Akute motorische axonale Neuropathie“ als Variante des Guillain-Barre-Syndroms. Wo möglich, ist die Kodierung des Namens der Variante über eine Terminologie zu bevorzugen."
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "Variante (3)",
+            "description" : "Spezifische Variante oder Subtyp der Diagnose, falls relevant.",
+            "comment" : "Zum Beispiel: „Akute motorische axonale Neuropathie“ als Variante des Guillain-Barre-Syndroms. Wo möglich, ist die Kodierung des Namens der Variante über eine Terminologie zu bevorzugen."
           }
         },
         "en" : {
@@ -997,17 +1026,17 @@
             "code" : "ac0.3",
             "description" : ""
           },
-          "at0079.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0079.1",
-            "text" : "ICD-10",
-            "description" : "Specific variant or subtype of the Diagnosis, if relevant.",
-            "comment" : "For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible. "
-          },
           "at0079.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079.2",
             "text" : "SNOMED",
+            "description" : "Specific variant or subtype of the Diagnosis, if relevant.",
+            "comment" : "For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible. "
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079.3",
+            "text" : "ICD-10",
             "description" : "Specific variant or subtype of the Diagnosis, if relevant.",
             "comment" : "For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible. "
           }
@@ -1031,6 +1060,13 @@
             "text" : "*Variant (en) (2)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
         },
         "pt-br" : {
@@ -1050,6 +1086,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "*Variant (en) (2)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
@@ -1073,6 +1116,13 @@
             "text" : "Variant (2)",
             "description" : "Spesifikk variant eller subtype av diagnose, hvis det er relevant.",
             "comment" : "For eksempel \"akutt motorisk aksonal nevropati\" som en variant av Guillain-Barre Syndrom. Koding av navnet på varianten med en terminologi er foretrukket hvis mulig."
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "Variant (3)",
+            "description" : "Spesifikk variant eller subtype av diagnose, hvis det er relevant.",
+            "comment" : "For eksempel \"akutt motorisk aksonal nevropati\" som en variant av Guillain-Barre Syndrom. Koding av navnet på varianten med en terminologi er foretrukket hvis mulig."
           }
         },
         "sv" : {
@@ -1092,6 +1142,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "Specificering (2)",
+            "description" : "Specificering av diagnosen, där det är relevant.",
+            "comment" : "Exempelvis \"akut motorisk axonal neuropati\" som en specificering av Guillain-Barre-syndromet. Om möjligt, koda specificeringen med en terminologi."
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "Specificering (3)",
             "description" : "Specificering av diagnosen, där det är relevant.",
             "comment" : "Exempelvis \"akut motorisk axonal neuropati\" som en specificering av Guillain-Barre-syndromet. Om möjligt, koda specificeringen med en terminologi."
           }
@@ -1115,6 +1172,13 @@
             "text" : "*Variant (en) (2)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
         },
         "fi" : {
@@ -1134,6 +1198,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "*Variant (en) (2)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
@@ -1157,6 +1228,13 @@
             "text" : "*Variant (en) (2)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
         },
         "nl" : {
@@ -1176,6 +1254,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "*Variant (en) (2)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
@@ -1199,6 +1284,13 @@
             "text" : "*Variant (en) (2)",
             "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
             "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "*Variant (en) (3)",
+            "description" : "*Specific variant or subtype of the Diagnosis, if relevant. (en)",
+            "comment" : "*For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.  (en)"
           }
         },
         "ca" : {
@@ -1220,6 +1312,13 @@
             "text" : "Variant (2)",
             "description" : "Variant o subtipus específic del Diagnòstic, si escau.",
             "comment" : "Per exemple: «neuropatia axonal motora aguda», com a variant de la síndrome de Guillain-Barré. Es recomana programar el nom de la variant amb una terminologia sempre que sigui possible."
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "Variant (3)",
+            "description" : "Variant o subtipus específic del Diagnòstic, si escau.",
+            "comment" : "Per exemple: «neuropatia axonal motora aguda», com a variant de la síndrome de Guillain-Barré. Es recomana programar el nom de la variant amb una terminologia sempre que sigui possible."
           }
         },
         "zh-cn" : {
@@ -1239,6 +1338,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0079",
             "text" : "变体/亚型 (2)",
+            "description" : "当前诊断的特定变体/变异类型或亚型/子类型（如果相关/合适）。",
+            "comment" : "例如：“急性运动轴突性神经病”（acute motor axonal neuropathy）就属于是吉兰-巴雷综合征（Guillain-Barre Syndrome）的变体。尽可能首选采用术语标准对变体/亚型的名称进行编码。"
+          },
+          "at0079.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0079",
+            "text" : "变体/亚型 (3)",
             "description" : "当前诊断的特定变体/变异类型或亚型/子类型（如果相关/合适）。",
             "comment" : "例如：“急性运动轴突性神经病”（acute motor axonal neuropathy）就属于是吉兰-巴雷综合征（Guillain-Barre Syndrome）的变体。尽可能首选采用术语标准对变体/亚型的名称进行编码。"
           }
