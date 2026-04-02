@@ -22,9 +22,9 @@
       "original_namespace" : "ch.openehr",
       "original_publisher" : "openehr.ch",
       "custodian_namespace" : "ch.openehr",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "de94757b33380688b8eb70f60c8c8361",
+      "MD5-CAM-1.0.1" : "15ddcb1b999d1ac50cca4caadf3c374c",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -265,51 +265,7 @@
                     "@type" : "C_COMPLEX_OBJECT",
                     "rmTypeName" : "DV_CODED_TEXT",
                     "occurrences" : "1..1",
-                    "attributes" : [ {
-                      "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "defining_code",
-                      "children" : [ {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "occurrences" : "0..1",
-                        "terminologyId" : {
-                          "value" : "Diagnostic qualifier"
-                        },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "Diagnostic qualifier" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "52870002",
-                          "value" : "Admitting diagnosis",
-                          "translations" : { }
-                        }, {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "89100005",
-                          "value" : "Final diagnosis (discharge)",
-                          "translations" : { }
-                        }, {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "406521002",
-                          "value" : "Post-op diagnosis",
-                          "translations" : { }
-                        }, {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "406520001",
-                          "value" : "Pre-op diagnosis",
-                          "translations" : { }
-                        }, {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "406522009",
-                          "value" : "Transfer diagnosis",
-                          "translations" : { }
-                        }, {
-                          "terminologyId" : "Diagnostic qualifier",
-                          "code" : "406523004",
-                          "value" : "Referral diagnosis",
-                          "translations" : { }
-                        } ]
-                      } ]
-                    } ],
+                    "attributes" : [ ],
                     "attributeTuples" : [ ]
                   } ]
                 } ],
@@ -3921,28 +3877,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "D02m",
                     "code" : "0",
-                    "value" : "Beidseitig",
-                    "translations" : { }
+                    "value" : "Beidseitig"
                   }, {
                     "terminologyId" : "D02m",
                     "code" : "1",
-                    "value" : "Einseitig rechts",
-                    "translations" : { }
+                    "value" : "Einseitig rechts"
                   }, {
                     "terminologyId" : "D02m",
                     "code" : "2",
-                    "value" : "Einseitig links",
-                    "translations" : { }
+                    "value" : "Einseitig links"
                   }, {
                     "terminologyId" : "D02m",
                     "code" : "3",
-                    "value" : "Einseitig unbekannt",
-                    "translations" : { }
+                    "value" : "Einseitig unbekannt"
                   }, {
                     "terminologyId" : "D02m",
                     "code" : "9",
-                    "value" : "Unbekannt",
-                    "translations" : { }
+                    "value" : "Unbekannt"
                   } ]
                 } ]
               } ],
